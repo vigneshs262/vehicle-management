@@ -1,0 +1,99 @@
+
+.App {
+    background-color: white;
+  }
+  
+  .Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100vw;
+    height: 100vh;
+    background:url("wall.jpg") no-repeat center fixed;
+    background-size: cover;
+    background-color: rgb(57, 84, 128);
+    text-align: left;
+  }
+  .img{
+    border-radius: 500px;
+    height:120px;
+    margin:10px 140px;
+  }
+  .Auth-form {
+    width: 420px;
+    box-shadow: rgba(3, 67, 87, 0.995) 1px 1px 10px;
+    padding-top: 90px;
+    padding-bottom: 200px;
+    border-radius: 8px;
+    background-color: none;
+    position: center;
+    right: 0px;
+    border-color: rgb(255, 255, 255);
+  }
+  .Auth-form2 {
+    width: 420px;
+    box-shadow: rgba(2, 135, 180, 0.599) 1px 1px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    background-color: none;
+    position: center;
+    right: 0px;
+    border-color: rgb(255, 255, 255);
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 30px;
+    color: rgb(250, 255, 254);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(36, 4, 65);
+  }
+  .head2{
+    font-size:80px;
+    color:rgb(255, 255, 255);
+    font-family:"Copperplate","fantasy";
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    text-shadow:rgba(10, 162, 204, 0.897) 1px 1px 10px ;
+  }
+  .title{
+      border-radius: 500px;
+      height:65px;
+      position:fixed; 
+      top:0; 
+      left:0;
+     
+      
+     
+    
+  }
+  .forgot{
+    color: rgba(225, 68, 15, 0.781);
+    background-color: aliceblue;
+    font-weight: 500;
+  }
+  .account{
+  color: rgb(210, 92, 14);
+  background-color: rgb(234, 234, 242);
+  font-weight: 500;
+  }
+  .already{
+    color: goldenrod;
+    background-color: rgb(246, 246, 246);
+    font-weight: 500;
+  }
